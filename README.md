@@ -102,15 +102,16 @@ Jupyter Notebook
 
 netflix-content-analytics
 │
+
 ├── data
 │   └── netflix_titles.csv
-│
+
 ├── notebooks
 │   └── netflix_analysis.ipynb
-│
+
 ├── visualizations
 │   └── movies_vs_tvshows.png
-│
+
 ├── recommendation
 │   └── recommendation_system.py
 │
