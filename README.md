@@ -99,6 +99,7 @@ Scikit-learn
 Jupyter Notebook
 
 📂 Project Structure
+
 netflix-content-analytics
 │
 ├── data
