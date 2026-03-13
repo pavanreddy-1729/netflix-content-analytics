@@ -114,15 +114,20 @@ netflix-content-analytics
 │   └── recommendation_system.py
 │
 └── README.md
+
 ⚙️ How to Run the Project
 1️⃣ Clone the repository
 git clone https://github.com/pavanreddy-1729/netflix-content-analytics.git
+
 2️⃣ Navigate to project folder
 cd netflix-content-analytics
+
 3️⃣ Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn
+
 4️⃣ Run the recommendation system
 python recommendation/recommendation_system.py
+
 🚀 Future Improvements
 
 Deploy recommendation system using Streamlit
