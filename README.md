@@ -1,8 +1,6 @@
 🎬 Netflix Content Analytics & Recommendation System
 
 
-
-
 📌 Project Overview
 
 This project performs Exploratory Data Analysis (EDA) on Netflix movies and TV shows and builds a Content-Based Recommendation System using Python.
@@ -20,19 +18,12 @@ Title
 Type (Movie / TV Show)
 
 Director
-
 Cast
-
 Country
-
 Release Year
-
 Rating
-
 Duration
-
 Genre
-
 Description
 
 📈 Exploratory Data Analysis
@@ -57,6 +48,7 @@ TV Shows ███████████
 Saved in:
 
 visualizations/movies_vs_tvshows.png
+
 🤖 Recommendation System
 
 A content-based recommendation system was built using:
@@ -82,6 +74,7 @@ El Chapo
 Ganglands
 Sin senos no hay paraíso
 The Eagle of El-Se'eed
+
 🛠 Tech Stack
 
 Python
@@ -110,14 +103,17 @@ netflix-content-analytics
 │   └── netflix_analysis.ipynb
 
 ├── visualizations
-│   └── movies_vs_tvshows.png
-
+│   ├── movies_vs_tvshows.png
+│   ├── genre_distribution.png
+│   └── release_trend.png
+   
 ├── recommendation
 │   └── recommendation_system.py
-│
+
 └── README.md
 
 ⚙️ How to Run the Project
+
 1️⃣ Clone the repository
 git clone https://github.com/pavanreddy-1729/netflix-content-analytics.git
 
