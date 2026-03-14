@@ -2,24 +2,19 @@ import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# Load dataset
 df = pd.read_csv("data/netflix_titles.csv")
 
-# Fill missing values
 df['listed_in'] = df['listed_in'].fillna('')
 df['description'] = df['description'].fillna('')
 
-# Combine important features
 df['content'] = df['listed_in'] + " " + df['description']
 
-# Convert text to vectors
 vectorizer = CountVectorizer(stop_words='english')
 matrix = vectorizer.fit_transform(df['content'])
 
-# Compute similarity
 similarity = cosine_similarity(matrix)
 
-# Recommendation function
+
 def recommend(title):
     title = title.lower()
     indices = df[df['title'].str.lower() == title].index
@@ -39,6 +34,5 @@ def recommend(title):
     return recommendations
 
 
-# Example
 print("Recommendations for 'Narcos':")
 print(recommend("Narcos"))
